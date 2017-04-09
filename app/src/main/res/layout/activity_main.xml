@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.youssefalaa.musicstructure.MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/purpose_structure_app"
+    android:textSize="26sp"
+    android:textColor="@android:color/black"
+    android:background="#FFECB3"
+    android:id="@+id/Activites"
+    android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/Activites"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/download"
+                android:scrollbarSize="12dp"/>
+
+            <TextView
+                android:id="@+id/now__playing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NowPlaying"
+                android:textSize="30sp"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/download"
+                android:scrollbarSize="12dp"/>
+
+            <TextView
+                android:id="@+id/albums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Albums"
+                android:textSize="30sp"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/download"
+                android:scrollbarSize="12dp"/>
+
+            <TextView
+                android:id="@+id/play_lists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PlayListis"
+                android:textSize="30sp"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/download"
+                android:scrollbarSize="12dp"/>
+
+            <TextView
+                android:id="@+id/buy_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Search"
+                android:textSize="30sp"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

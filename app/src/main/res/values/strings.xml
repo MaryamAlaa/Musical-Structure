@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MusicStructure</string>
+    <string name="NowPlaying">Now Playing</string>
+    <string name="Artist">Artists</string>
+    <string name="Albums">Albums</string>
+    <string name="PlayListis">Play Lists</string>
+    <string name="Search">Buy Online</string>
+    <string name="purpose_structure_app">when you open your app a list of activities will appear, you can choose what suits you</string>
+    <string name="purpose_Now_playing">The songs that playing Now</string>
+    <string name="purpose_albums">the avalible Albums</string>
+    <string name="purpose_play_Lists">the avalible Play Lists</string>
+    <string name="purpose_buy_online">Search for your lovely Song, you can buy it</string>
+    <string name="explanation">CardForm can be used as a simple credit card validation form with any credit card form and any payment API</string>
+    <string name="explain">the Android framework displays a Now Playing card on the home screen when there is an active MediaSession. The card includes media metadata such as album art, title, and app icon. When the user selects the card, the system opens the app.s</string>
+</resources>
+
